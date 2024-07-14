@@ -11,6 +11,7 @@ BuildRequires:  doxygen
 BuildRequires:  cmake(Dtk)
 #BuildRequires:  annobin
 BuildRequires:  pkgconfig(Qt5Core)
+BuildRequires:  cmake(Qt5Help)
 BuildRequires:  pkgconfig(gsettings-qt)
 BuildRequires:  gtest-devel
 BuildRequires:  pkgconfig(uchardet)
