@@ -7,6 +7,7 @@ Group:          System/Deepin
 URL:            https://github.com/linuxdeepin/dtkcore
 Source0:        %{url}/archive/%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:  doxygen
 BuildRequires:  cmake(Dtk)
 #BuildRequires:  annobin
 BuildRequires:  pkgconfig(Qt5Core)
