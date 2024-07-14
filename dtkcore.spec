@@ -9,6 +9,7 @@ Source0:        %{url}/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  qmake5
 BuildRequires:  doxygen
+BuildRequires:  qt5-assistant
 BuildRequires:  cmake(Dtk)
 #BuildRequires:  annobin
 BuildRequires:  pkgconfig(Qt5Core)
